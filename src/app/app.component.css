@@ -1,0 +1,51 @@
+.generator-container {
+    display: flex;
+    width: 80%;
+    margin: 15% auto;
+}
+
+.input-section {
+    width: 50%;
+    background-color: #B6F1DD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.output-section {
+    width: 50%;
+    border: 1px solid #B6F1DD;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 2.5rem;
+border-radius: 10px;
+border: 1px solid #0065fe;
+padding: 0 1rem ;
+width: 80%;
+}
+
+.button {
+    height: 2.5rem;
+border-radius: 10px;
+border: 1px solid #0065fe;
+background-color: #0065fe;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 1.5rem;
+width: 80%;
+padding: 0 1rem ;
+cursor: pointer;
+}
